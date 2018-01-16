@@ -1,0 +1,16 @@
+{
+  "name": "test-pre-commit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://chutiphon-k@github.com/chutiphon-k/test-pre-commit.git",
+  "author": "chutiphon-k <chutiphon.k@ku.th>",
+  "scripts": {
+    "build": "backpack build"
+  },
+  "pre-commit": ["build"],
+  "license": "MIT",
+  "dependencies": {
+    "backpack-core": "^0.5.0",
+    "pre-commit": "^1.2.2"
+  }
+}
